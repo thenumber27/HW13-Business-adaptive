@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans&display=swap");
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/subset-Gotham-Book.eot");
+  src: url("fonts/subset-Gotham-Book.eot?#iefix") format("embedded-opentype"), url("fonts/subset-Gotham-Book.woff2") format("woff2"), url("fonts/subset-Gotham-Book.woff") format("woff"), url("fonts/subset-Gotham-Book.ttf") format("truetype"), url("fonts/subset-Gotham-Book.svg#Gotham-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/subset-Gotham-Bold.eot");
+  src: url("fonts/subset-Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-Gotham-Bold.woff2") format("woff2"), url("fonts/subset-Gotham-Bold.woff") format("woff"), url("fonts/subset-Gotham-Bold.ttf") format("truetype"), url("fonts/subset-Gotham-Bold.svg#Gotham-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/subset-Gotham-Black.eot");
+  src: url("fonts/subset-Gotham-Black.eot?#iefix") format("embedded-opentype"), url("fonts/subset-Gotham-Black.woff2") format("woff2"), url("fonts/subset-Gotham-Black.woff") format("woff"), url("fonts/subset-Gotham-Black.ttf") format("truetype"), url("fonts/subset-Gotham-Black.svg#Gotham-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+.clearfix {
+  clear: both;
+  display: block;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.ourservice h2 {
+  text-align: center;
+  font-family: "Gotham";
+  font-size: 30px;
+  font-weight: 900;
+  color: #394b50;
+  margin: 0;
+}
+.ourservice__subtitle {
+  font-family: "open sans";
+  font-size: 16px;
+  color: #394b50;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 8%;
+}
+.ourservice__block {
+  max-width: 46%;
+  display: inline-block;
+}
+.ourservice__block p {
+  color: #7b7b7b;
+  font-family: "Open sans";
+  font-size: 13px;
+}
+.ourservice__block:nth-child(2n) {
+  padding-left: 8%;
+}
+.ourservice__block-text {
+  display: inline-block;
+  width: 80%;
+}
+.ourservice__block h3 {
+  color: #394b50;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.ourservice__icon {
+  font-size: 50px;
+  color: #709dca;
+  width: 80px;
+  display: inline-block;
+  width: 19%;
+}
+.ourservice__icon:hover {
+  color: #f6772c;
+}
+
+.howitworks {
+  font-family: "lato";
+  color: #394b50;
+  text-align: center;
+}
+.howitworks__cards {
+  position: relative;
+  display: inline-block;
+  max-width: 24%;
+  min-width: 178px;
+}
+.howitworks__cards-icon {
+  font-size: 72px;
+  color: #709dca;
+  padding-bottom: 100px;
+  position: relative;
+}
+.howitworks__text h2 {
+  font-family: "Gotham";
+  font-size: 30px;
+  color: #394b50;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  margin-top: 155px;
+}
+.howitworks__text p {
+  font-size: 18px;
+  margin-bottom: 80px;
+  margin-top: 0;
+}
+.howitworks__cards h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.howitworks-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 40px;
+  background-color: #ffbb42;
+  color: #ffffff;
+  margin-top: 95px;
+  margin-bottom: 150px;
+}
+.howitworks-img {
+  position: absolute;
+  max-width: 100%;
+  left: 77%;
+  bottom: 100%;
+}
+
+.img2 {
+  transform: rotate(180deg);
+  bottom: 60%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .howitworks {
+    display: flex;
+    justify-content: space-between;
+  }
+  .howitworks-img {
+    display: none;
+  }
+  .img2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ourservice__block {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+  }
+  .ourservice__block:nth-child(2n) {
+    padding: 0;
+  }
+  .howitworks__text p {
+    margin: 0;
+  }
+  .howitworks__cards {
+    text-align: center;
+    margin: 0;
+    max-width: 70%;
+  }
+  .howitworks__cards-icon {
+    padding: 0;
+  }
+  .howitworks-img {
+    display: inline-block;
+    transform: rotate(90deg);
+    left: 150px;
+    bottom: 0;
+  }
+  .img2 {
+    display: inline-block;
+    transform: rotate(-90deg);
+    bottom: 0;
+    left: -90px;
+  }
+}/*# sourceMappingURL=style.css.map */

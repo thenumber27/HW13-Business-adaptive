@@ -1,0 +1,43 @@
+@mixin form-icon {
+    position: absolute;
+    color: #6e6e6e;
+    font-size: 16px;
+    top: 15px;
+    left: 12px;
+    z-index: 1;
+}
+
+@mixin ourservice-icon {
+    font-size: 50px;
+    color: #709dca;
+    width: 80px;
+    display: inline-block;
+    width: 19%;
+    &:hover {
+        color: #f6772c;
+    }
+}
+
+@mixin title-text {
+    font-family: 'Gotham';
+    font-size: 30px;
+    color: #394b50;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
+
+@mixin title-text2 {
+    font-family:"open sans";
+    font-size: 16px;
+    color: #394b50;
+    text-align: center;
+    margin: 0;
+}
+
+@mixin howitworks-icon {
+    font-size: 72px;
+    color: #709dca;
+    padding-bottom: 100px;
+    position: relative;
+}
